@@ -1,0 +1,5 @@
+Django==4.0.4
+Pillow==6.2.1
+django-environ==0.8.1
+PyMySQL==1.0.2
+cryptography==37.0.2
