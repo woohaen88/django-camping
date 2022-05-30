@@ -427,3 +427,6 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/python,pycharm,visualstudiocode,macos,django
 
 # custom file list
+requirements_test.txt
+campingapp/migrations/0*
+.idea/
