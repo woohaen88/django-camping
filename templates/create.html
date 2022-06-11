@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <form action="{% url 'campingapp:create' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit">gogo</button>
+    </form>
+{% endblock %}
